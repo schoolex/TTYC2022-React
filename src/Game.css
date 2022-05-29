@@ -1,0 +1,57 @@
+.Game-content {
+  flex: .7;
+  padding-left: 8px; 
+}
+
+.Game-InputPanel {
+  margin-top: 0px;
+  flex: .5 1 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+
+}
+
+.Game-InputPanel .Game-Word {
+  flex: .1;
+}
+
+.Game-InputPanel .Game-AttemptsLeft {
+  flex: .1;
+}
+
+.Game-InputPanel .Game-VirtualKeyboard {
+  flex: .8;
+  margin-bottom: 100px;
+}
+
+.Game-InputPanel .Game-GameWin {
+  flex: .8;
+  font-weight: 600;
+  font-size: 1.3em;
+  color:forestgreen;
+}
+
+.Game-InputPanel .Game-GameOver {
+  flex: .8;
+  font-weight: 600;
+  font-size: 1.3em;
+  color:firebrick;
+}
+
+.Game-Hangman {
+  flex: .5 1 50%;
+  margin-top: -80px;
+}
+
+.Game-SideBySide {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Game-Vertical {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-items: center;
+}

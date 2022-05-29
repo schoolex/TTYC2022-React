@@ -1,0 +1,19 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vh;
+}
+
+.App-header {
+  flex: .2;
+  text-align: center;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ), 
+  url("https://i.etsystatic.com/6692622/r/il/3eb13d/1220168909/il_fullxfull.1220168909_cx9n.jpg");
+  background-color: #222;
+  padding: 8px;
+  color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

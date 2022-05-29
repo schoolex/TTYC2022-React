@@ -1,0 +1,22 @@
+.App-footer {
+  display: grid;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-style: italic;
+  background-color: #000;
+  color: #fff;
+  align-content: stretch;
+  justify-items: center;
+}
+
+.App-footer > h5 {
+  margin: 10px;
+  margin-bottom:-3px;
+}
+
+ul {
+  list-style-type: decimal;
+  padding:0px;
+}
